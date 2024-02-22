@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!--External CSS-->
+<link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+<div class="parent">
+
+    <div class="form">
+     
+    <h4 class="heading">Login</h4>
+    
+    <!--Form-->
+    <form action="/loginRequest" method="POST">
+    
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="email"></input><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password"></input><br>
+        <input type="checkbox" name="remember" id="remember"></input>
+        <label for="remember">Remember me</label>
+        <input type="submit" value="Login"></input><br>
+    </form>
+    <!--/Form-->
+
+    <p class="footer">New to my app ? <a href="/">Sign up</a></p>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
